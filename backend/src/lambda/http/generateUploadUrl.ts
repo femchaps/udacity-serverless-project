@@ -49,6 +49,6 @@ export const generateUploadUrlHandler: APIGatewayProxyHandler = async (
 
 export const handler = middy(generateUploadUrlHandler).use(
   cors({
-    credentials: true
+    credenials: true
   })
 )
