@@ -37,4 +37,4 @@ export const deleteTodoHandler: APIGatewayProxyHandler = async (
   }
 }
 
-export const handler = middy(deleteTodoHandler).use(cors({ credenials: true }))
+export const handler = middy(deleteTodoHandler).use(cors({ credentials: true }))

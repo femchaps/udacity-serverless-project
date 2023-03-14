@@ -31,4 +31,4 @@ const createTodoHandler: APIGatewayProxyHandler = async (
   }
 }
 
-export const handler = middy(createTodoHandler).use(cors({ credenials: true }))
+export const handler = middy(createTodoHandler).use(cors({ credentials: true }))

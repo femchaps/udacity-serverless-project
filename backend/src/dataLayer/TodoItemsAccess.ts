@@ -10,7 +10,7 @@ import { TodoUpdate } from '../models/TodoUpdate'
 export class TodoItemsAccess {
   constructor(
     private readonly docClient: DocumentClient = createDynamoDBClient(),
-    private readonly todoItemsTable = process.env.TODO_ITEMS_TABLE || '',
+    private readonly todoItemsTable = process.env.TODOS_TABLE || '',
     private readonly todoIdIndex = process.env.TODO_ID_INDEX || ''
   ) {}
 
