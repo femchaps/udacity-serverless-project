@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid'
 
 import { TodoItem } from '../models/TodoItem'
 import { TodoItemsAccess } from '../dataLayer/TodoItemsAccess'
-import { AttachmentsAccess } from '../dataLayer/AttachmentAccess'
+import { AttachmentsAccess } from '../dataLayer/AttachmentsAccess'
 import { CreateTodoRequest } from '../requests/CreateTodoRequest'
 import { UpdateTodoRequest } from '../requests/UpdateTodoRequest'
 
